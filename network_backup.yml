@@ -90,7 +90,7 @@
         credential: "Tower Credential"
         survey_enabled: true
         survey_spec: "{{ lookup('template', '{{playbook_dir}}/templates/backup.j2') }}"
-        tower_username: admin
-        tower_password: ansible
+        #tower_username: admin
+        #tower_password: ansible
         tower_host: "https://{{ansible_fqdn}}"
         validate_certs: no
